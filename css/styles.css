@@ -249,27 +249,26 @@ img {
   padding: 32px 0;
 }
 
-.team-socialicon {
-}
-
-.team-list-socialicon {
+.team-social-icon {
   display: flex;
   gap: 24px;
   justify-content: center;
   align-items: center;
 }
 
-.team-item-socialicon {
-  display: flex;
+.team-link-icon a {
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   border-radius: 50%;
-  fill: #4d5ae5;
+  background-color: #4d5ae5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
 }
-.skill-icon {
-}
+
 .team-list {
   display: flex;
   justify-content: center;
