@@ -65,6 +65,14 @@ img {
   gap: 40px;
 }
 
+.menu-item::before {
+  content: " ";
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
+}
+
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -74,26 +82,6 @@ img {
   text-decoration: none;
   padding: 24px 0;
   display: block;
-}
-
-.menu-link::before {
-  content: " ";
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-  background: #404bbf;
-}
-
-.menu-item {
-  display: block;
-}
-
-.menu-item::before {
-  content: " ";
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-  background: #404bbf;
 }
 
 .menu-link:hover,
@@ -215,7 +203,6 @@ img {
   width: 264px;
   height: 112px;
   background: #f4f4fd;
-  strok: #2e2f42;
   align-items: center;
   justify-content: center;
 }
