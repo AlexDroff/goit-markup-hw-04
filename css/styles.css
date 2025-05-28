@@ -76,12 +76,20 @@ img {
   display: block;
 }
 
+.menu-link::before {
+  content: " ";
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
+}
+
 .menu-item {
   display: block;
 }
 
-.menu-item::after {
-  content: "";
+.menu-item::before {
+  content: " ";
   border-radius: 2px;
   width: 48px;
   height: 4px;
