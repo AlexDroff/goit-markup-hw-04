@@ -266,7 +266,7 @@ img {
   background-color: #f4f4fd;
 }
 
-.team.container {
+.team-container {
   margin: 32px 0;
 }
 
@@ -498,7 +498,7 @@ img {
 
 .footer-link-icon:hover,
 .footer-link-icon:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .footer-text-icon {
