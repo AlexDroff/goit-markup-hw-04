@@ -166,6 +166,7 @@ img {
     ),
     url(../images/people-office-1.jpg);
   margin: 0 auto;
+  display: block;
 }
 
 .hero-title {
